@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SIT725 - Applied Software Engineering - Workshop 3</title>
+    <meta name="description" content="Basic Template">
+    <meta name="author" content="SitePoint">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- Custom Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Let browser know website is optimized for mobile-->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-wrapper navbar-size">
+        <a href="#" class="brand-logo"><img class="user-image-size" src="images/user-image.png" /></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="products"> Products </a> </li>
+          <li><a href="abt-us"> About Us </a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+          <br><br>
+          <h1 class="header center text-lighten-2"> One-Stop Shop </h1>
+          <div class="row center">
+            <h5 class="header col s12 light"> Welcome to the world of endless fun and imagination! </h5>
+          </div>
+          <div class="row center">
+			<a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i> Wish Your Toys! </a>
+		</div>
+          <br><br>
+        </div>
+    </div>
+
+	<div id="modal1" class="modal modal-fixed-footer">
+		<div class="row modal-content">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="title" type="text" class="validate">
+						<label for="title"> Toy Name </label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="path" type="text" class="validate">
+						<label for="path"> Path </label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="description" type="text" class="validate">
+						<label for="description"> Description </label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12 center-align">
+						<a class="waves-effect waves-light btn" id="formSubmit"> Click for Magic! </a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	
+    <!-- Product Section  -->
+    <div class="container"> 
+		<div class="section">
+			<div id="card-section" class="row">
+
+			</div>
+		</div>
+	</div>
+
+    <!-- About Us -->
+    <div id="abt-us" class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4> About Us </h4>
+            <p class="left-align light"> At Toys"R"Us, we believe that toys have the power to change lives. Play enables children to develop their imagination, collaborate, problem solve, explore, create or simply express themselves spontaneously. Our mission at Toys"R"Us is to encourage children to engage with as many forms of play as we possibly can.</p>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row ">
+          <div class="col l6 s12">
+            <a href="#" class="brand-logo"><img class="footer-image-size" style="padding-top: 10px;" src="images/user-image.png" /></a>
+            <p class="grey-text text-lighten-4"> Once you are Toys R Us Kid, you will always be Toys R Us Kid! </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text"> Quick Links </h5>
+            <ul>
+                <li> <a class="grey-text text-lighten-3" href="#!">Contact Us</a> </li>
+                <li> <a class="grey-text text-lighten-3" href="#!">About Us</a> </li>
+                <li> <a class="grey-text text-lighten-3" href="#!">FAQs </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">
+        <a class="white-text" href="#">  © 2014 Copyright Cyber-Billie </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="js/scriptMongo.js"></script>
+  </body>
+</html>
+
+<!-- Inspiration: ToysRus - https://toysrus.com.au/  -->

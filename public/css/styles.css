@@ -1,0 +1,19 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.user-image-size {
+    height: 30px;
+}
+.footer-image-size {
+    height: 40px;
+    width: auto;
+}
+
+.jumbotron {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+}
+
+
